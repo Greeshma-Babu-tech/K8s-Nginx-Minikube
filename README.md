@@ -3,11 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kubernetes Project on Minikube: Nginx Deployment</title>
 </head>
 <body>
   <h1>Kubernetes Project on Minikube: Nginx Deployment</h1>
-  <h2>Overview</h2>
   <p>This project demonstrates how to set up a scalable and highly available Nginx web server using Kubernetes on Minikube. The setup includes a Deployment to manage the Nginx pods and a Service to expose the application.</p>
   
   <h2>Pre-requisites</h2>
@@ -85,7 +83,6 @@
   <pre><code>minikube ip</code></pre>
   <p>Open a web browser and go to <code>http://&lt;Minikube_IP&gt;:&lt;NodePort&gt;</code> to see the Nginx welcome page.</p>
 
-  <h2>Conclusion</h2>
   <p>By following these steps, you have successfully set up and deployed an Nginx web server on a Kubernetes cluster using Minikube. This setup demonstrates how to manage and expose applications in a Kubernetes environment.</p>
 </body>
 </html>
